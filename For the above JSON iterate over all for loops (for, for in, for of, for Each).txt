@@ -1,0 +1,27 @@
+let sample = [{
+    "Name" : "Prabhu Gopal",
+    "Mail": "prabhugideasg89@gmail.com"
+},
+{
+    "Name" : "Prabhu G",
+    "Mail": "prabhugideasg89@gmail.com"
+}];
+
+//for loop
+for(var i = 0; i < sample.length; i++) {
+    console.log(sample[i].Name, sample[i].Mail);
+}
+
+//for In
+for (var ele in sample) {
+  console.log(ele);
+}
+
+//for Each
+sample.forEach(function(ele) { console.log(ele.Name); });
+
+//for Of
+let text = "";
+for (let ele of sample) {
+console.log(ele);
+}

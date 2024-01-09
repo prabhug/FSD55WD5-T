@@ -1,0 +1,40 @@
+let resume = {
+    "info": {
+      "name": "Prabhu G",
+      "email": "prabhugideasg89@gamil.com",
+      "phone": 9566261964,
+      "degree": "B.E(CSE)",
+      "location": {
+        "city": "Namakkal",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profile": [
+        {
+          "github":"https://github.com/prabhug"
+        }
+      ]
+    },
+    "education": [
+{
+        "institution": "GCE, Salem",
+        "department": "CSE",
+        "studyType": "fulltime",
+        "batch start year": 2006,
+        "batch end year": 2010
+      }
+    ],
+    "skill": [
+      {
+        "name": "javascript",
+        "level": "Inter"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ]
+  }
+  console.log(resume);
+  
